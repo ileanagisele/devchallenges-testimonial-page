@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #FAFAF9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  box-sizing: border-box;
+  height: 90vh;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.reviewers {
+  display: flex;
+  flex-direction: column;
+}
+
+span.star {
+  background-color: #F5C044;
+  font-size: 1.25rem;
+  border-radius: 120%;
+  padding: 2%;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.title {
+  color: #18181B;
+  font-size: 2.25rem;
+  margin: 0%;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.bullet {
+  padding-right: .5rem;
+}
+
+.item {
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 2.5;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.google,
+.meta {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 53%;
+  height: 30%;
+  padding: 5% 8%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.google {
+  align-self: flex-end;
+}
+
+.logo {
+  width: 30%;
+}
+
+.name {
+  color: #18181B;
+  font-weight: bold;
+  margin: 0%;
+  margin-bottom: .5rem;
+}
+
+.review {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0%;
+}

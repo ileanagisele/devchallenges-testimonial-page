@@ -1,0 +1,14 @@
+:root {
+  font-family: 'Sora', sans-serif;
+  color: #52525A;
+  background-color: #D4D4D8;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
